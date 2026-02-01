@@ -5,7 +5,21 @@
   <title>법령 문서</title>
 </head>
 <body>
-  <h1>대한민국 헌법</h1>
-  <p>제1조 (목적) 이 법은...</p>
+  <h1 id="title">대한민국 헌법</h1>
+
+  <textarea id="content" rows="10" cols="80">
+제1조 (목적) 이 헌법은...
+  </textarea>
+
+  <br><br>
+
+  <button onclick="save()">수정 내용 저장</button>
+
+  <script>
+    function save() {
+      alert("다음 단계에서 DB에 저장할 거예요!");
+    }
+  </script>
 </body>
 </html>
+
